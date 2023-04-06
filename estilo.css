@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(0, 32, 75);
+    color:bisque;
+}
+
+#tabuleiro{
+    text-align: center;
+    font-size: 7em;
+    /*background-color: rgb(66, 136, 1);*/
+}
+
+#cel00{
+    border-style: solid;
+    border-width: 0px 3px 3px 0px;
+}
+
+#cel01{
+    border-style: solid;
+    border-width: 0px 3px 3px 3px;
+}
+
+#cel02{
+    border-style: solid;
+    border-width: 0px 0px 3px 3px;
+}
+
+#cel10{
+    border-style: solid;
+    border-width: 3px 3px 3px 0px;
+}
+
+#cel11{
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+}
+
+#cel12{
+    border-style: solid;
+    border-width: 3px 0px 3px 3px;
+}
+
+#cel20{
+    border-style: solid;
+    border-width: 3px 3px 0px 0px;
+}
+
+#cel21{
+    border-style: solid;
+    border-width: 3px 3px 0px 3px;
+}
+
+#cel22{
+    border-style: solid;
+    border-width: 3px 0px 0px 3px;
+}
+
+#placar{
+    font-size: 4em;
+}
